@@ -1680,7 +1680,7 @@ impl Tensor {
         self.is_variable
     }
 
-    pub(crate) fn op(&self) -> &Option<Op> {
+    pub fn op(&self) -> &Option<Op> {
         &self.op
     }
 
