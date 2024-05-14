@@ -3,7 +3,7 @@ use crate::Tensor;
 use half::{bf16, f16};
 use num_traits::float::Float;
 
-#[derive(Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum CmpOp {
     Eq,
     Ne,
